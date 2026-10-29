@@ -25,7 +25,7 @@ public class Sapato {
 
     @Override
     public String toString() {
-        return "Sapato" +
+        return " " +
                 "nome='" + nome + '\'' +
                 ", cor='" + cor + '\'' +
                 '}';

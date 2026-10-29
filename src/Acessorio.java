@@ -1,11 +1,11 @@
 public class Acessorio {
 
     private String nome;
-    private String tipo;
 
-    public Acessorio(String nome, String tipo) {
+
+    public Acessorio(String nome) {
         this.nome = nome;
-        this.tipo = tipo;
+
     }
 
     public String getNome() {
@@ -16,19 +16,14 @@ public class Acessorio {
         this.nome = nome;
     }
 
-    public String getTipo() {
-        return tipo;
-    }
 
-    public void setTipo(String tipo) {
-        this.tipo = tipo;
-    }
+
 
     @Override
     public String toString() {
-        return "Acessorio" +
+        return " " +
                 "nome='" + nome + '\'' +
-                ", tipo='" + tipo + '\'' +
+                + '\'' +
                 '}';
     }
 }
