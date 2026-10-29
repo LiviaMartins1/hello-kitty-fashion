@@ -27,7 +27,7 @@ public class Look {
         IO.println("Sapato: " +sapato.getNome());
         IO.println("================================");
         IO.println("--- Look montado com sucesso ---");
-        IO.println("================================%n");
+        IO.println("================================%");
     }
 
     public Acessorio getAcessorio() {
